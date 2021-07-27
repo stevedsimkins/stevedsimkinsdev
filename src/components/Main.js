@@ -56,7 +56,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-          <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="" /></a>
+          <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="stevedylanphoto site" /></a>
           </span>
           <p>
             stevedylanphoto is my portfolio site for my photography work.
@@ -65,13 +65,18 @@ class Main extends React.Component {
             and javascript. I particular enjoy its clean layout using flexbox
             grid, and how well it handles on mobile devices. 
           </p>
-          <a href="https://stevedylanphoto.com/" target="blank"><img src={pic03} alt="" /></a>
+          <span className="image main">
+          <a href="https://manywaters.me/" target="blank"><img src={pic03} alt="manywaters site" /></a>
+          </span>
           <p>
             Manywaters is a project I did for Brad Knudsen, a indie artist 
             that works in analog synth mediums. This was another fairly simple
             site that implemented slightly more complicated libraries such as 
             gsap and scrolltrigger. I also used different animation methods on 
             the svgs inside the project.
+          </p>
+          <p>
+          <a href="#contact">Let me know if you would like to work together!</a>
           </p>
           {close}
         </article>
@@ -88,13 +93,11 @@ class Main extends React.Component {
             <img src={pic04} alt="bio picture" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I currently live in Coastal Virginia with my wife Madison, 
+            our son Theo, and our four cats. My hobbies and interests 
+            include film photography, tech, mechanical keyboards,
+            and of course web development.<a href="#contact">Let me know if you would 
+            like to work together!</a>
           </p>
           {close}
         </article>
@@ -107,14 +110,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/f/mbjqzjkk">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -132,27 +135,23 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
+                href="https://twitter.com/stevedsimkins" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/sdsimkins" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://instagram.com/stevedylanphoto/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
+                href="https://github.com/stevedsimkins/" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
