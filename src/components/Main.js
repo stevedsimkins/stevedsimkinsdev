@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
 
 class Main extends React.Component {
   render() {
@@ -33,24 +34,15 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hey there! 
+            My name is Steve Simkins and I am a web developer specializing in 
+            React and web design. I have spent the majority of my professional
+            career in both customer service and art, and I believe successful 
+            web design both solves people's problems and looks good doing it. 
+            You can see a collection of my work <a href="#work">here</a>.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            I would love to work with you so please feel free to <a href="#contact">contact me!</a>
           </p>
           {close}
         </article>
@@ -64,22 +56,22 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+          <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="" /></a>
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            stevedylanphoto is my portfolio site for my photography work.
+            This is one of my first sites that I have tweaked here and there, 
+            but it remains a fairly simple yet elegant example of html, css, 
+            and javascript. I particular enjoy its clean layout using flexbox
+            grid, and how well it handles on mobile devices. 
           </p>
+          <a href="https://stevedylanphoto.com/" target="blank"><img src={pic03} alt="" /></a>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Manywaters is a project I did for Brad Knudsen, a indie artist 
+            that works in analog synth mediums. This was another fairly simple
+            site that implemented slightly more complicated libraries such as 
+            gsap and scrolltrigger. I also used different animation methods on 
+            the svgs inside the project.
           </p>
           {close}
         </article>
@@ -93,7 +85,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic04} alt="bio picture" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
