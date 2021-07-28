@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
@@ -38,10 +39,6 @@ class Main extends React.Component {
             React and web design. I have spent the majority of my professional
             career in both customer service and art, and I believe successful 
             web design both solves people's problems and looks good doing it. 
-            You can see a collection of my work <a href="#work">here</a>.
-          </p>
-          <p>
-            I would love to work with you so please feel free to <a href="#contact">contact me!</a>
           </p>
           {close}
         </article>
@@ -74,9 +71,6 @@ class Main extends React.Component {
             gsap and scrolltrigger. I also used different animation methods on 
             the svgs inside the project.
           </p>
-          <p>
-          <a href="#contact">Let me know if you would like to work together!</a>
-          </p>
           {close}
         </article>
 
@@ -89,14 +83,13 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic04} alt="bio picture" />
+            <img src={pic01} alt="bio picture" />
           </span>
           <p>
             I currently live in Coastal Virginia with my wife Madison, 
             our son Theo, and our four cats. My hobbies and interests 
             include film photography, tech, mechanical keyboards,
-            and of course web development.<a href="#contact">Let me know if you would 
-            like to work together!</a>
+            and of course web development. 
           </p>
           {close}
         </article>

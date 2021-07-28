@@ -10,15 +10,8 @@ const Header = props => (
       <div className="inner">
         <h1>Steve Simkins</h1>
         <p>
-          Photographer Turned React Developer and Designer
+          React Developer and Web Designer
         </p>
-        <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Let's Work Together
-          </button>
       </div>
     </div>
     <nav>
