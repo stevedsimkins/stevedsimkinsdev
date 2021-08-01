@@ -43,6 +43,11 @@ const Header = props => (
             About
           </button>
         </li>
+                <li>
+          <button onClick={window.open("https://stevedsimkins.hashnode.dev")}>
+            Blog
+          </button>
+        </li>
         <li>
           <button
             onClick={() => {
