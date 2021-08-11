@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Steve Simkins - React Developer',
+    title: 'Steve Simkins - Front-End Web Developer',
     author: 'Steve Simkins',
     description: 'Web portfolio of Steve Simkins',
   },
@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Steve Simkins - React Developer',
+        name: 'Steve Simkins - Front-End Web Developer',
         short_name: 'Steve Simkins',
         start_url: '/',
         background_color: '#663399',
