@@ -4,6 +4,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
 
 class Main extends React.Component {
   render() {
@@ -51,6 +52,17 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <span className="image main">
+          <a href="https://devtimer.netlify.app/" target="blank"><img src={pic05} alt="devtimer site" /></a>
+          </span>
+          <p>
+            DevTimer is a project currently in development and it's goal is to
+            assist film photographers. I personally shoot a lot of film 
+            photography and develop it myself, and one of the things I've 
+            always wanted is a timer that will go from stage to stage
+            without interruptions. That is the goal of this project 
+            and you can find our more about it on my <a href="https://stevedsimkins.blog" target="_blank">blog!</a>
+          </p>
           <span className="image main">
           <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="stevedylanphoto site" /></a>
           </span>
