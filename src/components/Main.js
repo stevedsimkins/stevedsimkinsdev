@@ -5,6 +5,7 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
+import pic06 from '../images/pic06.jpg'
 
 class Main extends React.Component {
   render() {
@@ -25,9 +26,8 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
@@ -35,52 +35,62 @@ class Main extends React.Component {
             <img src={pic04} alt="" />
           </span>
           <p>
-            Hey there! 
-            My name is Steve Simkins and I am a web developer specializing in 
+            Hey there!
+            My name is Steve Simkins and I am a web developer specializing in
             React and web design. I have spent the majority of my professional
-            career in both customer service and art, and I believe successful 
-            web design both solves people's problems and looks good doing it. 
+            career in both customer service and art, and I believe successful
+            web design both solves people's problems and looks good doing it.
           </p>
           {close}
         </article>
 
         <article
           id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-          <a href="https://devtimer.netlify.app/" target="blank"><img src={pic05} alt="devtimer site" /></a>
+            <a href="https://waveportal.netlify.app/" target="_blank"><img src={pic06} alt="waveportal site" /></a>
+          </span>
+          <p>
+            Waveportal is a project made with the help of _buildspace,
+            and it is a Web3 app with smart contracts on the Ethereum
+            blockchain! It really opened my eyes to the possibilities
+            of blockchain technology and the future of DeFi. It even
+            inspired me to look into blockchain development as a
+            career choice!
+          </p>
+          <span className="image main">
+            <a href="https://devtimer.netlify.app/" target="blank"><img src={pic05} alt="devtimer site" /></a>
           </span>
           <p>
             DevTimer is a project currently in development and it's goal is to
-            assist film photographers. I personally shoot a lot of film 
-            photography and develop it myself, and one of the things I've 
+            assist film photographers. I personally shoot a lot of film
+            photography and develop it myself, and one of the things I've
             always wanted is a timer that will go from stage to stage
-            without interruptions. That is the goal of this project 
+            without interruptions. That is the goal of this project
             and you can find our more about it on my <a href="https://stevedsimkins.blog" target="_blank">blog!</a>
           </p>
           <span className="image main">
-          <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="stevedylanphoto site" /></a>
+            <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="stevedylanphoto site" /></a>
           </span>
           <p>
             stevedylanphoto is my portfolio site for my photography work.
-            This is one of my first sites that I have tweaked here and there, 
-            but it remains a fairly simple yet elegant example of html, css, 
+            This is one of my first sites that I have tweaked here and there,
+            but it remains a fairly simple yet elegant example of html, css,
             and javascript. I particular enjoy its clean layout using flexbox
-            grid, and how well it handles on mobile devices. 
+            grid, and how well it handles on mobile devices.
           </p>
           <span className="image main">
-          <a href="https://manywaters.me/" target="blank"><img src={pic03} alt="manywaters site" /></a>
+            <a href="https://manywaters.me/" target="blank"><img src={pic03} alt="manywaters site" /></a>
           </span>
           <p>
-            Manywaters is a project I did for Brad Knudsen, a indie artist 
+            Manywaters is a project I did for Brad Knudsen, a indie artist
             that works in analog synth mediums. This was another fairly simple
-            site that implemented slightly more complicated libraries such as 
-            gsap and scrolltrigger. I also used different animation methods on 
+            site that implemented slightly more complicated libraries such as
+            gsap and scrolltrigger. I also used different animation methods on
             the svgs inside the project.
           </p>
           {close}
@@ -88,9 +98,8 @@ class Main extends React.Component {
 
         <article
           id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
@@ -98,19 +107,18 @@ class Main extends React.Component {
             <img src={pic01} alt="bio picture" />
           </span>
           <p>
-            I currently live in Coastal Virginia with my wife Madison, 
-            our son Theo, and our four cats. My hobbies and interests 
+            I currently live in Coastal Virginia with my wife Madison,
+            our son Theo, and our four cats. My hobbies and interests
             include film photography, tech, mechanical keyboards,
-            and of course web development. 
+            and of course web development.
           </p>
           {close}
         </article>
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
