@@ -6,6 +6,7 @@ import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
+import pic07 from '../images/pic07.jpg'
 
 class Main extends React.Component {
   render() {
@@ -51,6 +52,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <span className="image main">
+            <a href="https://nftbarista.netlify.app/" target="_blank"><img src={pic07} alt="NFT Barista site" /></a>
+          </span>
+          <p>
+            NFT Barista is the end result project of the _buildspace
+            "mint your own NFT project." It's a Web3 app made with
+            solidity, hardhat, and react. After you connect Metmask
+            and get some Rinkeby testnet, you can order yourself a
+            cup of "crypto coffee," and the NFT barista will mint an
+            NFT for you! It will also provide you a link to see your
+            NFT on Opensea.io!
+          </p>
           <span className="image main">
             <a href="https://waveportal.netlify.app/" target="_blank"><img src={pic06} alt="waveportal site" /></a>
           </span>
