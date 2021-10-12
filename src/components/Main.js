@@ -97,7 +97,7 @@ class Main extends React.Component {
             grid, and how well it handles on mobile devices.
           </p>
           <span className="image main">
-            <a href="https://manywaters.me/" target="blank"><img src={pic03} alt="manywaters site" /></a>
+            <a href="https://many-waters.netlify.app/" target="blank"><img src={pic03} alt="manywaters site" /></a>
           </span>
           <p>
             Manywaters is a project I did for Brad Knudsen, a indie artist
