@@ -36,11 +36,12 @@ class Main extends React.Component {
             <img src={pic04} alt="" />
           </span>
           <p>
-            Hey there!
-            My name is Steve Simkins and I am a web developer specializing in
-            React and web design. I have spent the majority of my professional
-            career in both customer service and art, and I believe successful
-            web design both solves people's problems and looks good doing it.
+            Hey there! 
+            My name is Steve Simkins and I am a Web3/Web2 developer specializing in
+            Solidity smart contracts, React, and web design! I've spent the 
+            last four years in finance, art, and customer service, all things
+            I find valuable in the new world of decentralized finance and apps. 
+            Check out my work to see what I've been working on!
           </p>
           {close}
         </article>
@@ -120,10 +121,12 @@ class Main extends React.Component {
             <img src={pic01} alt="bio picture" />
           </span>
           <p>
-            I currently live in Coastal Virginia with my wife Madison,
-            our son Theo, and our four cats. My hobbies and interests
-            include film photography, tech, mechanical keyboards,
-            and of course web development.
+            Beyond my interest in Web3 development I am also an avid 
+            film photographer, coffee enthusiest, and mechanical
+            keyboard nerd! I'm currently living in Virginia (soon
+            to be Tennessee) with my wife, son, and our four cats.
+            I'm excited to help build the next generation of the 
+            internet by assisting artists and those with finanial needs!
           </p>
           {close}
         </article>
