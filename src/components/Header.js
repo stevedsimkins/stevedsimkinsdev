@@ -43,7 +43,7 @@ const Header = props => {
                 props.onOpenArticle('about')
               }}
             >
-              About
+              NFT Credentials
             </button>
           </li>
           <li>

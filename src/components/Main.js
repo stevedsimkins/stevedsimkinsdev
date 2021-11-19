@@ -55,7 +55,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <a href="https://nftgallery21.vercel.app/" target="_blank"><img src={nftgallery} alt="NFT Gallery" /></a>
+            <a href="https://nftgallery2021.vercel.app/" target="_blank"><img src={nftgallery} alt="NFT Gallery" /></a>
           </span>
           <p>
             NFT Gallery is a dApp built on the solana blockchain
@@ -120,7 +120,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">NFT Credentials</h2>
           <span className="image main">
             <img src={about} alt="bio picture" />
           </span>
