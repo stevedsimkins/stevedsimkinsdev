@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-import pic04 from '../images/pic04.jpg'
-import pic05 from '../images/pic05.jpg'
-import pic06 from '../images/pic06.jpg'
-import pic07 from '../images/pic07.jpg'
+import intro from "../images/intro.jpg";
+import nftgallery from "../images/nftgallery.jpeg";
+import intotheunknown from "../images/intotheunknown.png";
+import nftbarista from "../images/nftbarista.png";
+import waveportal from "../images/waveportal.gif";
+import stevedylanphoto from "../images/stevedylanphoto.jpg";
+import about from "../images/about.jpg";
+
 
 class Main extends React.Component {
   render() {
@@ -33,15 +34,15 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic04} alt="" />
+            <img src={intro} alt="" />
           </span>
           <p>
-            Hey there! 
-            My name is Steve Simkins and I am a Web3/Web2 developer specializing in
-            Solidity smart contracts, React, and web design! I've spent the 
-            last four years in finance, art, and customer service, all things
-            I find valuable in the new world of decentralized finance and apps. 
-            Check out my work to see what I've been working on!
+            Hey there!
+            My name is Steve Simkins and I am a front end Web3 developer
+            utilizing tools to build on the Ethereum and Solana blockchains.
+            I've spent the last several years in finance, art, and customer service;
+            all things I find valuable in the new world of decentralized
+            finance and apps. Check out my work to see what I've been working on!
           </p>
           {close}
         </article>
@@ -54,7 +55,31 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <a href="https://nftbarista.netlify.app/" target="_blank"><img src={pic07} alt="NFT Barista site" /></a>
+            <a href="https://nftgallery21.vercel.app/" target="_blank"><img src={nftgallery} alt="NFT Gallery" /></a>
+          </span>
+          <p>
+            NFT Gallery is a dApp built on the solana blockchain
+            that allows users to share their favorite NFTs via
+            an OpenSea link! Utilizing Anchor, React, and some
+            OpenSea whitelist embeds, the site pulls information
+            from a Solana program and displays the NFT's on a grid.
+            Get a Phantom wallet with some devnet solana to try it out!
+          </p>
+          <span className="image main">
+            <a href="https://intotheunknown.vercel.app/" target="_blank"><img src={intotheunknown} alt="Into the Unknown" /></a>
+          </span>
+          <p>
+            Into the Unknown is an NFT based minigame on using
+            Ethereum! The art and characters are based on one of
+            my favoitre shows "Over the Garden Wall," and the dApp
+            allows users to mint a character to their wallet, and then
+            fight "the beast." This deals damage to both the boss and
+            the NFT character on blockchain! This was built with a mix
+            of Solidity and React; all you need is Metamask and some
+            Rinkeby test Eth to try it out!
+          </p>
+          <span className="image main">
+            <a href="https://nft-barista.vercel.app/" target="_blank"><img src={nftbarista} alt="NFT Barista site" /></a>
           </span>
           <p>
             NFT Barista is the end result project of the _buildspace
@@ -66,7 +91,7 @@ class Main extends React.Component {
             NFT on Opensea.io!
           </p>
           <span className="image main">
-            <a href="https://waveportal.netlify.app/" target="_blank"><img src={pic06} alt="waveportal site" /></a>
+            <a href="https://waveportalss.vercel.app/" target="_blank"><img src={waveportal} alt="waveportal site" /></a>
           </span>
           <p>
             Waveportal is a project made with the help of _buildspace,
@@ -77,18 +102,7 @@ class Main extends React.Component {
             career choice!
           </p>
           <span className="image main">
-            <a href="https://devtimer.netlify.app/" target="blank"><img src={pic05} alt="devtimer site" /></a>
-          </span>
-          <p>
-            DevTimer is a project currently in development and it's goal is to
-            assist film photographers. I personally shoot a lot of film
-            photography and develop it myself, and one of the things I've
-            always wanted is a timer that will go from stage to stage
-            without interruptions. That is the goal of this project
-            and you can find our more about it on my <a href="https://stevedsimkins.blog" target="_blank">blog!</a>
-          </p>
-          <span className="image main">
-            <a href="https://stevedylanphoto.com/" target="blank"><img src={pic02} alt="stevedylanphoto site" /></a>
+            <a href="https://stevedylanphoto.com/" target="blank"><img src={stevedylanphoto} alt="stevedylanphoto site" /></a>
           </span>
           <p>
             stevedylanphoto is my portfolio site for my photography work.
@@ -96,16 +110,6 @@ class Main extends React.Component {
             but it remains a fairly simple yet elegant example of html, css,
             and javascript. I particular enjoy its clean layout using flexbox
             grid, and how well it handles on mobile devices.
-          </p>
-          <span className="image main">
-            <a href="https://many-waters.netlify.app/" target="blank"><img src={pic03} alt="manywaters site" /></a>
-          </span>
-          <p>
-            Manywaters is a project I did for Brad Knudsen, a indie artist
-            that works in analog synth mediums. This was another fairly simple
-            site that implemented slightly more complicated libraries such as
-            gsap and scrolltrigger. I also used different animation methods on
-            the svgs inside the project.
           </p>
           {close}
         </article>
@@ -118,14 +122,14 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic01} alt="bio picture" />
+            <img src={about} alt="bio picture" />
           </span>
           <p>
-            Beyond my interest in Web3 development I am also an avid 
+            Beyond my interest in Web3 development I am also an avid
             film photographer, coffee enthusiest, and mechanical
-            keyboard nerd! I'm currently living in Virginia (soon
+            keyboard nerd. I'm currently living in Virginia (soon
             to be Tennessee) with my wife, son, and our four cats.
-            I'm excited to help build the next generation of the 
+            I'm excited to help build the next generation of the
             internet by assisting artists and those with finanial needs!
           </p>
           {close}
