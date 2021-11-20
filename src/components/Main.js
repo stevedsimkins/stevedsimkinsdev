@@ -139,20 +139,19 @@ class Main extends React.Component {
         >
           <h2 className="major">NFT Credentials</h2>
           <p>Here is a list of NFTs I've earned by building Web3 projects! You can also see them on my <a href="https://opensea.io/stevedsimkins" target="_blank">OpenSea</a> profile</p>
-          <h3>Copy Wallet Address Below</h3>
-          <button style={{ width: "100%", margin: "0 auto" }} onClick={() => { navigator.clipboard.writeText(this.state.textToCopy) }}>0x2fd0...95a9</button>
+          <button style={{ width: "100%", margin: "0 auto" }} onClick={() => { navigator.clipboard.writeText(this.state.textToCopy) }}>Copy Wallet Address</button>
           <p></p>
           <h3>
             Buildspace: Build a Solana App | Cohort Alkes | #228
           </h3>
           <span className="image main">
-            <video src={solanaVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" />
+            <video src={solanaVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" autoPictureInPicture="false" disablePictureInPicture />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2892 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2892" target="_blank">OpenSea Link</a>
           </p>
           <h3>Buildspace: Create a NFT Game | Cohort Alkes | #214</h3>
           <span className="image main">
-            <video src={nftgameVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" />
+            <video src={nftgameVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" autoPictureInPicture="false" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2238 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2238" target="_blank">OpenSea Link</a>
           </p>
