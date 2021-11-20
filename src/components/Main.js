@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import React from 'react'
+import React, { useState } from 'react'
 import intro from "../images/intro.jpg";
 import nftgallery from "../images/nftgallery.jpeg";
 import intotheunknown from "../images/intotheunknown.png";
@@ -13,6 +13,7 @@ import smartContracts from "../images/smartcontracts.png";
 
 
 class Main extends React.Component {
+  state = { textToCopy: "0x2fd0bd0d1c846682f3730cb3f6c22052b43495a9" }
   render() {
     let close = (
       <div
@@ -138,6 +139,9 @@ class Main extends React.Component {
         >
           <h2 className="major">NFT Credentials</h2>
           <p>Here is a list of NFTs I've earned by building Web3 projects! You can also see them on my <a href="https://opensea.io/stevedsimkins" target="_blank">OpenSea</a> profile</p>
+          <h3>Copy Wallet Address Below</h3>
+          <button style={{ width: "100%", margin: "0 auto" }} onClick={() => { navigator.clipboard.writeText(this.state.textToCopy) }}>0x2fd0...95a9</button>
+          <p></p>
           <h3>
             Buildspace: Build a Solana App | Cohort Alkes | #228
           </h3>
