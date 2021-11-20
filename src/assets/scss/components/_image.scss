@@ -27,7 +27,7 @@
 			width: 100%;
 		}
 
-		img {
+		img, video {
 			border-radius: _size(border-radius);
 			display: block;
 		}
@@ -36,7 +36,7 @@
 		&.right {
 			max-width: 40%;
 
-			img {
+			img, video {
 				width: 100%;
 			}
 		}
@@ -58,7 +58,7 @@
 			margin: 0 0 _size(element-margin) 0;
 			width: 100%;
 
-			img {
+			img, video{
 				width: 100%;
 			}
 		}
@@ -68,7 +68,7 @@
 			margin: (_size(element-margin) * 1.25) 0;
 			width: 100%;
 
-			img {
+			img, video {
 				width: 100%;
 			}
 		}

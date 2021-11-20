@@ -6,7 +6,10 @@ import intotheunknown from "../images/intotheunknown.png";
 import nftbarista from "../images/nftbarista.png";
 import waveportal from "../images/waveportal.gif";
 import stevedylanphoto from "../images/stevedylanphoto.jpg";
-import about from "../images/about.jpg";
+import solanaVideo from "../images/solana.mp4";
+import nftgameVideo from "../images/nftgame.mp4";
+import mintNFT from "../images/mintNFTCollection.png";
+import smartContracts from "../images/smartcontracts.png";
 
 
 class Main extends React.Component {
@@ -44,6 +47,14 @@ class Main extends React.Component {
             all things I find valuable in the new world of decentralized
             finance and apps. Check out my work to see what I've been working on!
           </p>
+          <p>
+            Beyond my interest in Web3 development I am also an avid film
+            photographer, coffee enthusiest, and mechanical keyboard nerd.
+            I'm currently living in Virginia (soon to be Tennessee) with
+            my wife, son, and our four cats. I'm excited to help build the
+            next generation of the internet by assisting artists
+            and those with finanial needs!
+          </p>
           {close}
         </article>
 
@@ -54,6 +65,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <h2>NFT Gallery</h2>
           <span className="image main">
             <a href="https://nftgallery2021.vercel.app/" target="_blank"><img src={nftgallery} alt="NFT Gallery" /></a>
           </span>
@@ -65,6 +77,7 @@ class Main extends React.Component {
             from a Solana program and displays the NFT's on a grid.
             Get a Phantom wallet with some devnet solana to try it out!
           </p>
+          <h2>Into the Unknown</h2>
           <span className="image main">
             <a href="https://intotheunknown.vercel.app/" target="_blank"><img src={intotheunknown} alt="Into the Unknown" /></a>
           </span>
@@ -78,6 +91,7 @@ class Main extends React.Component {
             of Solidity and React; all you need is Metamask and some
             Rinkeby test Eth to try it out!
           </p>
+          <h2>NFT Barista</h2>
           <span className="image main">
             <a href="https://nft-barista.vercel.app/" target="_blank"><img src={nftbarista} alt="NFT Barista site" /></a>
           </span>
@@ -90,6 +104,7 @@ class Main extends React.Component {
             NFT for you! It will also provide you a link to see your
             NFT on Opensea.io!
           </p>
+          <h2>Waveportal</h2>
           <span className="image main">
             <a href="https://waveportalss.vercel.app/" target="_blank"><img src={waveportal} alt="waveportal site" /></a>
           </span>
@@ -101,6 +116,7 @@ class Main extends React.Component {
             inspired me to look into blockchain development as a
             career choice!
           </p>
+          <h2>Steve Dylan Photo</h2>
           <span className="image main">
             <a href="https://stevedylanphoto.com/" target="blank"><img src={stevedylanphoto} alt="stevedylanphoto site" /></a>
           </span>
@@ -121,16 +137,32 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">NFT Credentials</h2>
+          <p>Here is a list of NFTs I've earned by building Web3 projects! You can also see them on my <a href="https://opensea.io/stevedsimkins" target="_blank">OpenSea</a> profile</p>
+          <h3>
+            Buildspace: Build a Solana App | Cohort Alkes | #228
+          </h3>
           <span className="image main">
-            <img src={about} alt="bio picture" />
+            <video src={solanaVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" />
           </span>
-          <p>
-            Beyond my interest in Web3 development I am also an avid
-            film photographer, coffee enthusiest, and mechanical
-            keyboard nerd. I'm currently living in Virginia (soon
-            to be Tennessee) with my wife, son, and our four cats.
-            I'm excited to help build the next generation of the
-            internet by assisting artists and those with finanial needs!
+          <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2892 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2892" target="_blank">OpenSea Link</a>
+          </p>
+          <h3>Buildspace: Create a NFT Game | Cohort Alkes | #214</h3>
+          <span className="image main">
+            <video src={nftgameVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" />
+          </span>
+          <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2238 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2238" target="_blank">OpenSea Link</a>
+          </p>
+          <h3>Buildspace: Build a Web3 App: Mint Your Own NFT collection | Cohort Alkes | #198</h3>
+          <span className="image main">
+            <img src={mintNFT} alt="Mint NFT Collection" />
+          </span>
+          <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 578 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/578" target="_blank">OpenSea Link</a>
+          </p>
+          <h3>Buildspace: Intro to Web3 | Cohort Capella | #189 of 200</h3>
+          <span className="image main">
+            <img src={smartContracts} alt="Smart Contract NFT" />
+          </span>
+          <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 871 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/871" target="_blank">OpenSea Link</a>
           </p>
           {close}
         </article>
