@@ -6,8 +6,8 @@ import intotheunknown from "../images/intotheunknown.png";
 import nftbarista from "../images/nftbarista.png";
 import waveportal from "../images/waveportal.gif";
 import stevedylanphoto from "../images/stevedylanphoto.jpg";
-import solanaVideo from "../images/solana.mp4";
-import nftgameVideo from "../images/nftgame.mp4";
+import solanaVideo from "../images/solana.gif";
+import nftgameVideo from "../images/nftgame.gif";
 import mintNFT from "../images/mintNFTCollection.png";
 import smartContracts from "../images/smartcontracts.png";
 
@@ -145,13 +145,13 @@ class Main extends React.Component {
             Buildspace: Build a Solana App | Cohort Alkes | #228
           </h3>
           <span className="image main">
-            <video src={solanaVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" autoPictureInPicture="false" disablePictureInPicture />
+            <img src={solanaVideo} alt="solana nft" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2892 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2892" target="_blank">OpenSea Link</a>
           </p>
           <h3>Buildspace: Create a NFT Game | Cohort Alkes | #214</h3>
           <span className="image main">
-            <video src={nftgameVideo} type="video/mp4" autoPlay loop controlsList="nodownload" muted controls="none" autoPictureInPicture="false" />
+            <img src={nftgameVideo} alt="nft game" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2238 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2238" target="_blank">OpenSea Link</a>
           </p>
@@ -202,24 +202,36 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/stevedsimkins" className="icon fa-twitter">
+                href="https://twitter.com/stevedsimkins" target="_blank" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/sdsimkins" className="icon fa-facebook">
+              <a href="https://www.facebook.com/sdsimkins" target="blank" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/stevedylanphoto/" className="icon fa-instagram">
+              <a href="https://instagram.com/stevedylanphoto/" target="blank" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/stevedsimkins/" className="icon fa-github">
+                href="https://github.com/stevedsimkins/" target="blank" className="icon fa-github">
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://opensea.io/stevedsimkins/" target="blank" className="icon fa-ship">
+                <span className="label">Opensea</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/steve-simkins/" target="blank" className="icon fa-linkedin">
+                <span className="label">Opensea</span>
               </a>
             </li>
           </ul>
