@@ -10,6 +10,7 @@ import solanaVideo from "../images/solana.gif";
 import nftgameVideo from "../images/nftgame.gif";
 import mintNFT from "../images/mintNFTCollection.png";
 import smartContracts from "../images/smartcontracts.png";
+import sendMeACoffee from "../images/sendMeACoffee.png";
 
 
 class Main extends React.Component {
@@ -66,6 +67,24 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <h2>Send Me a Coffee</h2>
+          <span className="image main">
+            <a href="https://sendmeacoffee.vercel.app/" target="_blank"><img src={sendMeACoffee} alt="Send me a coffee" /></a>
+          </span>
+          <p>
+            Send me a coffee is a small project I made with Solidity,
+            React, and Chakra UI. The concept is simple: a crypto
+            version of "Buy Me a Coffee." Even though one could
+            simply do a transfer to the creator they want to support
+            using their crytpo wallet, this dApp adds some extra features.
+            For one the gas cost will be significantly less than
+            a transfer thanks to the smart contract, and second it
+            posts the donations in an attractive UI and stores the
+            donation info on chain for others to see! I've also
+            designed this project to be open sourced with easy
+            spots for a user to change their info and deploy it
+            for their own use!
+          </p>
           <h2>NFT Gallery</h2>
           <span className="image main">
             <a href="https://nftgallery2021.vercel.app/" target="_blank"><img src={nftgallery} alt="NFT Gallery" /></a>
