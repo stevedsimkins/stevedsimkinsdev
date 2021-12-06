@@ -8,6 +8,7 @@ import waveportal from "../images/waveportal.gif";
 import stevedylanphoto from "../images/stevedylanphoto.jpg";
 import solanaVideo from "../images/solana.gif";
 import nftgameVideo from "../images/nftgame.gif";
+import solanaNftVideo from "../images/solanaNft.gif";
 import mintNFT from "../images/mintNFTCollection.png";
 import smartContracts from "../images/smartcontracts.png";
 import sendMeACoffee from "../images/sendMeACoffee.png";
@@ -157,9 +158,17 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">NFT Credentials</h2>
-          <p>Here is a list of NFTs I've earned by building Web3 projects! You can also see them on my <a href="https://opensea.io/stevedsimkins" target="_blank">OpenSea</a> profile</p>
+          <p>Here is a list of NFTs I've earned by building Web3 projects! You can also see them on my <a href="https://opensea.io/stevedsimkins" target="_blank">OpenSea</a> profile or you can view them on my 3D virtual gallery with <a href="https://oncyber.io/stevedsimkins" target="_blank">Cyber!</a></p>
           <button style={{ width: "100%", margin: "0 auto" }} onClick={() => { navigator.clipboard.writeText(this.state.textToCopy) }}>Copy Wallet Address</button>
           <p></p>
+          <h3>
+            Buildspace: Solana NFT Collection | Cohort Alkes | #26
+          </h3>
+          <span className="image main">
+            <img src={solanaNftVideo} alt="solana nft" />
+          </span>
+          <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 4968 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/4968" target="_blank">OpenSea Link</a>
+          </p>
           <h3>
             Buildspace: Build a Solana App | Cohort Alkes | #228
           </h3>
