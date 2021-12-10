@@ -12,6 +12,7 @@ import solanaNftVideo from "../images/solanaNft.gif";
 import mintNFT from "../images/mintNFTCollection.png";
 import smartContracts from "../images/smartcontracts.png";
 import sendMeACoffee from "../images/sendMeACoffee.png";
+import solanaTrickOrTreat from "../images/solanatrickortreat.png";
 
 
 class Main extends React.Component {
@@ -68,6 +69,20 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <h2>Solana Trick or Treat</h2>
+          <span className="image main">
+            <a href="https://solanatrickortreat.vercel.app/" target="_blank"><img src={solanaTrickOrTreat} alt="Solana Trick or Treat" /></a>
+          </span>
+          <p>
+            Solana Trick or Treat was a really fun project using
+            Metaplex's "Candy Machine," a list of tools designed to
+            ship NFT drops on the Solana blockchain! I created my own
+            NFT's based on "It's the Great Pumpkin Charlie Brown!" that
+            reflect receiving candy, or a rock. The project involves a
+            release date paired with a countdown timer, a limited number
+            of NFT's to be minted, and all funds being sent to the owner
+            of the project.
+          </p>
           <h2>Send Me a Coffee</h2>
           <span className="image main">
             <a href="https://sendmeacoffee.vercel.app/" target="_blank"><img src={sendMeACoffee} alt="Send me a coffee" /></a>
