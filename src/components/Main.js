@@ -13,6 +13,7 @@ import mintNFT from "../images/mintNFTCollection.png";
 import smartContracts from "../images/smartcontracts.png";
 import sendMeACoffee from "../images/sendMeACoffee.png";
 import solanaTrickOrTreat from "../images/solanatrickortreat.png";
+import buildspaceWarrior from "../images/buildspaceWarrior.gif";
 
 
 class Main extends React.Component {
@@ -177,10 +178,18 @@ class Main extends React.Component {
           <button style={{ width: "100%", margin: "0 auto" }} onClick={() => { navigator.clipboard.writeText(this.state.textToCopy) }}>Copy Wallet Address</button>
           <p></p>
           <h3>
+            Buildspace warrior | top community contributor | #194
+          </h3>
+          <span className="image main">
+            <img loading="lazy" src={buildspaceWarrior} alt="buildspace warrior nft" />
+          </span>
+          <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 5793 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/4968" target="_blank">OpenSea Link</a>
+          </p>
+          <h3>
             Buildspace: Solana NFT Collection | Cohort Alkes | #26
           </h3>
           <span className="image main">
-            <img src={solanaNftVideo} alt="solana nft" />
+            <img loading="lazy" src={solanaNftVideo} alt="solana nft" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 4968 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/4968" target="_blank">OpenSea Link</a>
           </p>
@@ -188,25 +197,25 @@ class Main extends React.Component {
             Buildspace: Build a Solana App | Cohort Alkes | #228
           </h3>
           <span className="image main">
-            <img src={solanaVideo} alt="solana nft" />
+            <img loading="lazy" src={solanaVideo} alt="solana nft" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2892 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2892" target="_blank">OpenSea Link</a>
           </p>
           <h3>Buildspace: Create a NFT Game | Cohort Alkes | #214</h3>
           <span className="image main">
-            <img src={nftgameVideo} alt="nft game" />
+            <img loading="lazy" src={nftgameVideo} alt="nft game" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 2238 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/2238" target="_blank">OpenSea Link</a>
           </p>
           <h3>Buildspace: Build a Web3 App: Mint Your Own NFT collection | Cohort Alkes | #198</h3>
           <span className="image main">
-            <img src={mintNFT} alt="Mint NFT Collection" />
+            <img loading="lazy" src={mintNFT} alt="Mint NFT Collection" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 578 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/578" target="_blank">OpenSea Link</a>
           </p>
           <h3>Buildspace: Intro to Web3 | Cohort Capella | #189 of 200</h3>
           <span className="image main">
-            <img src={smartContracts} alt="Smart Contract NFT" />
+            <img loading="lazy" src={smartContracts} alt="Smart Contract NFT" />
           </span>
           <p>Contract Address: <a href="https://polygonscan.com/address/0x3cd266509d127d0eac42f4474f57d0526804b44e" target="_blank">0x3CD266509D127d0Eac42f4474F57D0526804b44e</a> Token ID: 871 <a href="https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/871" target="_blank">OpenSea Link</a>
           </p>
